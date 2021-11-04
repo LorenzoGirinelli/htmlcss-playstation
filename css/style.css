@@ -13,20 +13,20 @@
 main{
     margin-top: 30px;
 }
-.menu-container {
+.menu-container-right {
     text-align: right;
     font-size: 12px;
     display: inline-block;
 }
-.menu-container li {
+.menu-container-right li {
     display: inline-block;
     margin-left: 20px;
 }
-.menu-container a {
+.menu-container-right a {
     text-decoration: none;
     font-size: 16px;
 }
-.menu-container li img{
+.menu-container-rigth li img{
     width: 25px;
 }
 .btn-black{
@@ -36,8 +36,24 @@ main{
 }
 .dropdown-toggle{
     color: black;
+    font-weight: bold;
 }
 .burger {
     font-size: 25px;
     text-align: right;
+}
+.menu-container-left {
+    font-size: 12px;
+    display: inline-block;
+}
+.menu-container-left li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu-container-left a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.menu-container-left li img{
+    width: 55px;
 }
