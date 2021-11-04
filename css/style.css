@@ -1,3 +1,18 @@
+.header-logo{
+    background-color: black;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.header-logo img{
+    width: 90px;
+    float: right;
+}
+main{
+    margin-top: 30px;
+}
 .menu-container {
     text-align: right;
     font-size: 12px;
