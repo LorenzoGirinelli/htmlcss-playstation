@@ -48,7 +48,6 @@ main{
 }
 .menu-container-left li {
     display: inline-block;
-    margin-left: 20px;
 }
 .menu-container-left a {
     text-decoration: none;
@@ -56,4 +55,7 @@ main{
 }
 .menu-container-left li img{
     width: 55px;
+}
+.play{
+    font-size: 25px;
 }
