@@ -22,6 +22,13 @@ header{
     border-radius: 20px;
     margin-top: 25px;
 }
+.btn-gray{
+    background-color: #d9dadc;
+    color: #4071e5;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 .header-logo{
     background-color: black;
@@ -121,6 +128,7 @@ section{
     border-radius: 20px;
     padding: 3px;
 }
+/* presentation ps5 */
 .presentation-ps5{
     margin-bottom: 80px;
 }
@@ -184,6 +192,10 @@ section{
 .news-back{
     background-color: #1f1f1f;
 }
+.title-news{
+    color: white;
+    padding-top: 25px;
+}
 .portfolio-new-games h5{
     color: white;
     padding-bottom: 25px;
@@ -195,4 +207,62 @@ section{
 }
 .portfolio-news{
     padding-top: 40px;
+}
+/* explore ps4 */
+.title-ps4{
+    text-align: center;
+    padding-top: 70px;
+    width: 40%;
+    margin: auto;
+}
+.title-ps4 h2{
+    font-size: 45px;
+}
+.title-ps4 span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+.explore-ps4{
+    margin-bottom: 80px;
+}
+.ps4-content{
+    text-align: left;
+    padding-top: 80px;
+}
+.ps4-content img{
+    width: 350px;
+}
+.ps4-content h2{
+    font-size: 22px;
+}
+.ps4-content span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+.ps4-image img{
+    width: 100%;
+}
+.ps-plus-back-color{
+    background-color: #bebcbb;
+}
+.ps-plus-content img{
+    width: 350px;
+    padding-bottom: 30px;
+}
+.ps-plus-content{
+    padding-top: 100px;
+}
+.ps-plus-content span{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 992px) {
+    .ps4-image {
+        display: none;
+    }
 }
