@@ -4,6 +4,25 @@ body{
 header{
     font-family: Helvetica, arial, sans-serif;
 }
+/* buttons */
+.btn-black{
+    background-color: #363636;
+    color: white;
+    border-radius: 20px;
+}
+.btn-orange{
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.btn-blue{
+    background-color: #2d64e6;
+    color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
 .header-logo{
     background-color: black;
     padding: 5px 0;
@@ -34,11 +53,6 @@ main{
 }
 .lens{
     width: 25px;
-}
-.btn-black{
-    background-color: #363636;
-    color: white;
-    border-radius: 20px;
 }
 .dropdown-toggle{
     color: black;
@@ -75,7 +89,7 @@ section{
     text-align: left;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
 }
 .jumbotron h2 {
     padding: 20px 0;
@@ -90,12 +104,8 @@ section{
 .jumbo-img{
     width: 200px;
 }
-.btn-orange{
-    background-color: #cd3d0f;
-    color: white;
-    border-radius: 20px;
-    margin-top: 15px;
-}
+/* end jumbotron */
+/* portfolio games */
 .portfolio-games{
     margin-top: 40px;
 }
@@ -109,5 +119,59 @@ section{
 .portfolio-games-content img:hover{
     border: 2px solid #2888d6;
     border-radius: 20px;
+    padding: 3px;
+}
+.presentation-ps5{
+    margin-bottom: 80px;
+}
+.title-ps5{
+    text-align: center;
+}
+.title-ps5 h5{
+    color: #0e7ad1;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.title-ps5 h2{
+    font-size: 45px;
+}
+.title-ps5 span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+.introduction-ps5{
+    padding-top: 200px;
+}
+.introduction-ps5 h2{
+    font-size: 42px;
+}
+.introduction-ps5 span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+.ps5-image img{
+    width: 100%;
+}
+.portfolio-accessories{
+    margin: 40px 0;
+}
+.portfolio-accessories-content{
+    text-align: center;
+}
+.portfolio-accessories-content img{
+    width: 150px;
+}
+.portfolio-accessories-content h5{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.portfolio-accessories-content:hover{
+    border-bottom: 2px solid #2888d6;
     padding: 3px;
 }
