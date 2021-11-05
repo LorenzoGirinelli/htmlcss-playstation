@@ -29,6 +29,12 @@ header{
     margin-top: 30px;
     font-weight: bold;
 }
+.btn-white{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 .header-logo{
     background-color: black;
@@ -232,7 +238,7 @@ section{
     padding-top: 80px;
 }
 .ps4-content img{
-    width: 350px;
+    width: 90%;
 }
 .ps4-content h2{
     font-size: 22px;
@@ -265,4 +271,91 @@ section{
     .ps4-image {
         display: none;
     }
+}
+
+.title-ps-store{
+    text-align: center;
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+}
+.title-ps-store h2{
+    font-size: 45px;
+}
+.title-ps-store span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+.ps-now-back-color{
+    background-color: #161c3b;
+}
+.ps-now-content img{
+    width: 350px;
+    padding-bottom: 30px;
+}
+.ps-now-content{
+    padding-top: 100px;
+}
+.ps-now-content span{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: white;
+}
+.container-media{
+    width: 50%;
+    margin: auto;
+}
+.media-content{
+    text-align: left;
+    padding-top: 80px;
+}
+.media-content img{
+    width: 100%;
+}
+.media-image img{
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    .container-media {
+        width: 90%;
+        margin: auto;
+    }
+}
+/* footer */
+footer{
+    background-color: #00439c;
+}
+.ps-footer{
+    width: 110px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.footer-left h5{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.footer-left p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+.sie{
+    width: 130px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.link-foot{
+    text-align: right;
+    padding-top: 80px;
+    line-height: 32px;
+}
+.link-foot a{
+    text-decoration: none;
+    color: white;
 }
