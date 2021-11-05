@@ -175,3 +175,24 @@ section{
     border-bottom: 2px solid #2888d6;
     padding: 3px;
 }
+.secondo-jumbo-back-img{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.news-back{
+    background-color: #1f1f1f;
+}
+.portfolio-new-games h5{
+    color: white;
+    padding-bottom: 25px;
+}
+.portfolio-new-games img{
+    width: 100%;
+    border-radius: 20px;
+    /* padding: 0 5px; */
+}
+.portfolio-news{
+    padding-top: 40px;
+}
