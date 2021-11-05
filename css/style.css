@@ -96,8 +96,18 @@ section{
     border-radius: 20px;
     margin-top: 15px;
 }
-@media screen and (max-width: 576px) {
-    .jumbo-back-img{
-        height: 400px;
-    }
+.portfolio-games{
+    margin-top: 40px;
+}
+.portfolio-games-content {
+    margin-bottom: 20px;
+}
+.portfolio-games-content img{
+    width: 100%;
+    border-radius: 20px;
+}
+.portfolio-games-content img:hover{
+    border: 2px solid #2888d6;
+    border-radius: 20px;
+    padding: 3px;
 }
