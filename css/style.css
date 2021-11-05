@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
 .header-logo{
     background-color: black;
     padding: 5px 0;
@@ -26,7 +32,7 @@ main{
     text-decoration: none;
     font-size: 16px;
 }
-.menu-container-rigth li img{
+.lens{
     width: 25px;
 }
 .btn-black{
@@ -58,4 +64,40 @@ main{
 }
 .play{
     font-size: 25px;
+}
+/* jumbotron */
+section{
+    /* padding: 18% 0; */
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.jumbotron {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.jumbotron h2 {
+    padding: 20px 0;
+    font-size: 40px;
+}
+.jumbo-back-img{
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.jumbo-img{
+    width: 200px;
+}
+.btn-orange{
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 576px) {
+    .jumbo-back-img{
+        height: 400px;
+    }
 }
