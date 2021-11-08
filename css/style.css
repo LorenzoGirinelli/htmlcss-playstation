@@ -359,3 +359,14 @@ footer{
     text-decoration: none;
     color: white;
 }
+/* @media screen and (max-width: 576px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+@media screen and (max-width: 576px) {
+    .item{
+        width: 100%;
+    }
+}
